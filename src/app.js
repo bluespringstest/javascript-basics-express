@@ -1,12 +1,20 @@
 const express = require('express');
+const { sayHello } = require('./lib/strings');
 
 const app = express();
-const APP_PORT = 3000;
 
-//req = request made and res = response to client
+//req = request made to server and res = response to client
+app.get('/strings/hello/:sayHello', (req, res) => {
+  res.status(200).json({result: `Hello, ${req.params.sayHello}!`})
+})
 
-app.get('/strings/hello/world', (req, res) => {
-  res.send({result: 'Hello, world!'});
+//real answer:
+/*
+app.get('/strings/hello/:string', (req, res) => {
+  res.json({ result: sayHello(req.params.string) });
 });
+
+*/
+
 
 module.exports = app;
