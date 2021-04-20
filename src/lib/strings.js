@@ -22,10 +22,13 @@ const firstCharacter = string => {
 
 const firstCharacters = (string, n) => {
  bob =""
+ if (n === true){
   for (let i = 0; i < n; i++) {
-     bob += string.charAt(i);
-  }
-  return bob
+    bob += string.charAt(i);
+ }
+ return bob
+ } 
+  //return string[0]
 };
 
 module.exports = {
