@@ -22,11 +22,11 @@ const firstCharacter = string => {
 
 const firstCharacters = (string, n) => {
  bob =""
- if (n === true){
-  for (let i = 0; i < n; i++) {
+ if (n > 0){
+  for (let i = 0; i < n; i++) { 
     bob += string.charAt(i);
  }
- return bob
+ return bob;
  } 
   //return string[0]
 };
