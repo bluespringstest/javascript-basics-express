@@ -1,101 +1,61 @@
-const negate = a => {
-  if (a === false) {
-    return true
-  }
-  else {
-    return false
-  }
+const negate = value => {
+  // TODO: implement
 };
 
 const both = (a, b) => {
-  return a && b;
+  // TODO: implement
 };
 
 const either = (a, b) => {
-  return a || b;
+  // TODO: implement
 };
 
 const none = (a, b) => {
-  return a === false && b === false;
+  // TODO: implement
 };
 
 const one = (a, b) => {
-  
-  if (a === true && b === false){
-    return true
-  }
-  else if (b === true && a === false){
-    return true;
-  }
-  else return false;
+  // TODO: implement
 };
 
-const truthiness = a => {
-  if (a){
-    return true;
-  }
-  else return false;
+const truthiness = value => {
+  // TODO: implement
 };
 
 const isEqual = (a, b) => {
-  return a === b;
+  // TODO: implement
 };
 
 const isGreaterThan = (a, b) => {
-  if (a > b) {
-    return true;
-  }
-  else return false;
+  // TODO: implement
 };
 
 const isLessThanOrEqualTo = (a, b) => {
-  if (a <= b) {
-    return true;
-  }
-  else return false;
+  // TODO: implement
 };
 
-const isOdd = a => {
-  if (a % 2 != 0) {
-    return true;
-  }
-  else return false;
+const isOdd = value => {
+  // TODO: implement
 };
 
-const isEven = a => {
-  if (a % 2 == 0) {
-    return true;
-  }
-  else return false;
+const isEven = value => {
+  // TODO: implement
 };
 
-const isSquare = a => {
-  if (Math.sqrt(a) % 1 === 0) {
-    return true;
-  }
-  else return false;
+const isSquare = value => {
+  // TODO: implement
 };
 
-const startsWith = (char, string) => {
-  if (string.startsWith(char)){
-    return true;
-  }
-  else return false;
+const startsWith = (character, string) => {
+  // TODO: implement
 };
 
 const containsVowels = string => {
-  if (/[aeiou]/i.test(string) === true){
-    return true
-  }
-  else return false;
+  // TODO: implement
 };
 
 const isLowerCase = string => {
-  let bob = string.toLowerCase();
-  if (bob === string){
-    return true
-  }
-  else return false;
+  // TODO: implement
 };
 
 module.exports = {
@@ -113,5 +73,5 @@ module.exports = {
   isSquare,
   startsWith,
   containsVowels,
-  isLowerCase
+  isLowerCase,
 };

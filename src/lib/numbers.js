@@ -1,107 +1,46 @@
 const add = (a, b) => {
-  bob = a + b;
-  return bob
+  // TODO: implement
 };
 
 const subtract = (a, b) => {
-  bob = a - b;
-  return bob
+  // TODO: implement
 };
 
 const multiply = (a, b) => {
-  bob = a * b;
-  return bob
+  // TODO: implement
 };
 
 const divide = (a, b) => {
-  bob = a / b;
-  return bob
+  // TODO: implement
 };
 
 const power = (a, b) => {
-  bob = a ** b;
-  return bob
+  // TODO: implement
 };
 
-const round = a => {
-  bob = Math.round(a);
-  return bob
+const round = n => {
+  // TODO: implement
 };
 
-const roundUp = a => {
-  bob = Math.ceil(a);
-  return bob
+const roundUp = n => {
+  // TODO: implement
 };
 
-const roundDown = a => {
-  bob = Math.floor(a);
-  return bob
+const roundDown = n => {
+  // TODO: implement
 };
 
-const absolute = a => {
-  bob = Math.abs(a);
-  return bob
+const absolute = n => {
+  // TODO: implement
 };
 
 const quotient = (a, b) => {
-  bob = Math.floor(a / b);
-  if (bob < 0) {
-    bob = bob + 1
-  }
-  return bob
+  // TODO: implement
 };
 
 const remainder = (a, b) => {
-  bob = a % b;
-  return bob
+  // TODO: implement
 };
-
-const digPow = (n, p) => {  
-  
-  let aort = [2, 3, 4, 5, 6, 7, 8, 9];
-  let base = Math.sqrt(n);
-  let newNumb =  Math.floor(base);
-  let crud =  n - (Math.pow(newNumb, 2));
- 
-  function checkNum(e){
-    //return e === crud;
-    if (crud % e === 0){
-      return e;
-    } 
-  }
-  let newCalc = aort.find(checkNum);
-
-  function negativeNum(f) {
-    if (f - p === 1){
-      return p
-    }
-    else if (newCalc === p)
-    {
-      return crud - ((p+1)* newCalc)
-  }
-  else if (f !== aort.pop())
-  {
-    return -1
-  }
-  }
-  return negativeNum(newCalc);
-}
-  
- /* function calculate2(f) {
-      if (f % crud === 0) {
-        return f / crud
-      }
-      else {
-        return -1;
-      }
-    }*/
-  /*function calculate1(o) {
-    let array = [2, 3, 4, 5, 6, 7, 8, 9];
-    for (let i = 0; i < array.length; i++) {
-      if (o % i !== 0) {
-        return }
-      };
-    }*/
 
 module.exports = {
   add,
@@ -115,5 +54,4 @@ module.exports = {
   absolute,
   quotient,
   remainder,
-  digPow
 };

@@ -1,82 +1,61 @@
 const getNthElement = (index, array) => {
-  while (index >3) {index = index -4};
-  return array[index];
+  // TODO: implement
 };
 
 const arrayToCSVString = array => {
-  return array.toString(',');
+  // TODO: implement
 };
 
 const csvStringToArray = string => {
-  return string.split(",");
+  // TODO: implement
 };
 
 const addToArray = (element, array) => {
-  array.push(element);
+  // TODO: implement
 };
 
 const addToArray2 = (element, array) => {
-  bob = [element]; 
-  return array.concat(bob)
+  // TODO: implement
 };
 
 const removeNthElement = (index, array) => {
-   array.splice(index, 1)
+  // TODO: implement
 };
 
 const numbersToStrings = numbers => {
-
-return numbers.toString().split(",")
-  /*function newNum(item) {
-    item.toString();
-  };
-  return numbers.forEach(newNum)*/
+  // TODO: implement
 };
 
 const uppercaseWordsInArray = strings => {
-  return strings.map(strings => strings.toUpperCase())
+  // TODO: implement
 };
 
 const reverseWordsInArray = strings => {
-  return strings.map(strings => strings.split("").reverse().join(""));
+  // TODO: implement
 };
 
 const onlyEven = numbers => {
- bob =[];
-    for (let i = 0; i < numbers.length; i++) {
-      if (numbers[i] % 2 === 0)
-       {
-        bob.push(i + 1)
-        //if you try to do i++ it will give you odd numbers. Foul creature this be.
-      } 
-    }
-  return bob
+  // TODO: implement
 };
 
 const removeNthElement2 = (index, array) => {
-      let newArray = array.map(e => e);
-    newArray.splice(index, 1);
-    return newArray;
-  }
-  
+  // TODO: implement
+};
+
 const elementsStartingWithAVowel = strings => {
-  return strings.filter(strings => /^[aeiou]/i.test(strings));
+  // TODO: implement
 };
 
 const removeSpaces = string => {
-  return string.replace(/\s/g, "");
+  // TODO: implement
 };
 
 const sumNumbers = numbers => {
-  function myFunc(total, num) {
-    return total + num;
-  }
-  return numbers.reduce(myFunc);
+  // TODO: implement
 };
 
 const sortByLastLetter = strings => {
-  const reversedWords = reverseWordsInArray(strings).sort();
-  return reverseWordsInArray(reversedWords);
+  // TODO: implement
 };
 
 module.exports = {
@@ -94,5 +73,5 @@ module.exports = {
   elementsStartingWithAVowel,
   removeSpaces,
   sumNumbers,
-  sortByLastLetter
+  sortByLastLetter,
 };

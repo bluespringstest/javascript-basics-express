@@ -1,34 +1,25 @@
 const sayHello = string => {
-  return "Hello, " + string +"!"
+  // TODO: implement
 };
 
 const uppercase = string => {
-  bob = string.toUpperCase(string)
-  return bob
+  // TODO: implement
 };
 
 const lowercase = string => {
-  bob = string.toLowerCase(string)
-  return bob
+  // TODO: implement
 };
 
 const countCharacters = string => {
- return string.length
+  // TODO: implement
 };
 
 const firstCharacter = string => {
-  return string[0]
+  // TODO: implement
 };
 
 const firstCharacters = (string, n) => {
- bob =""
- if (n > 0){
-  for (let i = 0; i < n; i++) { 
-    bob += string.charAt(i);
- }
- return bob;
- } 
-  //return string[0]
+  // TODO: implement
 };
 
 module.exports = {
@@ -37,5 +28,5 @@ module.exports = {
   lowercase,
   countCharacters,
   firstCharacter,
-  firstCharacters
+  firstCharacters,
 };
